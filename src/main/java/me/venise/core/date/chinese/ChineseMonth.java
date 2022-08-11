@@ -4,7 +4,7 @@ package me.venise.core.date.chinese;
  *
  * 农历月份表示
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:32
  */
 public class ChineseMonth {

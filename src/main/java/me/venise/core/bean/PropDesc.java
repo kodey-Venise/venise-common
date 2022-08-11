@@ -15,7 +15,7 @@ import java.lang.reflect.Type;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:34
  */
 public class PropDesc {

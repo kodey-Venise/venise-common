@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 基本变量类型的枚举<br>
  * 基本类型枚举包括原始类型和包装类型
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:50
  */
 public enum BasicType {

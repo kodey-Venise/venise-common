@@ -11,7 +11,7 @@ import java.nio.file.Path;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:39
  */
 public class FileResource implements Resource, Serializable {

@@ -9,7 +9,7 @@ import java.nio.file.NoSuchFileException;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:33
  */
 public class UploadFile {

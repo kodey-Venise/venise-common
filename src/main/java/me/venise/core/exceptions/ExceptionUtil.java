@@ -2,7 +2,7 @@ package me.venise.core.exceptions;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/22 16:12
  */
 public class ExceptionUtil {

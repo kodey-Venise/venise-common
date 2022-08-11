@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:48
  */
 public class AtomicBooleanConverter extends AbstractConverter<AtomicBoolean> {

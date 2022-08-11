@@ -17,7 +17,7 @@ package me.venise.core.util;
  *     <li>银行卡号</li>
  * </ul>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:57
  */
 public class DesensitizedUtil {

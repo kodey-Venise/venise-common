@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 /**
  * 线程池工具
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:24
  */
 public class ThreadUtil {

@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * 日期格式化输出接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:37
  */
 public interface DatePrinter extends DateBasic {

@@ -7,7 +7,7 @@ import java.util.function.Function;
 /**
  * 使用给定的转换函数，转换源{@link Spliterator}为新类型的{@link Spliterator}
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 18:03
  */
 public class TransSpliterator<F, T> implements Spliterator<T> {

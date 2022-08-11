@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
  * 文件拷贝的FileVisitor实现，用于递归遍历拷贝目录，此类非线程安全<br>
  * 此类在遍历源目录并复制过程中会自动创建目标目录中不存在的上级目录。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:18
  */
 public class CopyVisitor extends SimpleFileVisitor<Path> {

@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:25
  */
 public class StackTraceElementConverter extends AbstractConverter<StackTraceElement> {

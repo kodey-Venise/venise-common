@@ -5,7 +5,7 @@ import me.venise.core.lang.Segment;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:40
  */
 public class PageUtil {

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:18
  */
 public interface Functions<R> extends Serializable {

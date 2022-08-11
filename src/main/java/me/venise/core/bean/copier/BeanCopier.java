@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:31
  */
 public class BeanCopier<T> implements Copier<T>, Serializable {

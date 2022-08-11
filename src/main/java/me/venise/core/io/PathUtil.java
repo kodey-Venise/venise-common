@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * NIO中Path对象操作封装
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:53
  */
 public class PathUtil {

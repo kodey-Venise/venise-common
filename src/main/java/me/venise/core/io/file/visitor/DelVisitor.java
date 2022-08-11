@@ -10,7 +10,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 /**
  * 删除操作的FileVisitor实现，用于递归遍历删除文件夹
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:18
  */
 public class DelVisitor extends SimpleFileVisitor<Path> {

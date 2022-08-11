@@ -5,7 +5,7 @@ import java.nio.file.WatchEvent;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:13
  */
 public interface Watcher {

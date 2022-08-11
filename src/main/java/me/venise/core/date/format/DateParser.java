@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * 日期解析接口，用于解析日期字符串为 Date 对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:36
  */
 public interface DateParser extends DateBasic{

@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:37
  */
 @Documented

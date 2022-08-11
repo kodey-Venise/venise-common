@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:15
  */
 public class DateRange extends Range<DateTime> {

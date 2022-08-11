@@ -6,7 +6,7 @@ import me.venise.core.lang.func.Functions;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:39
  */
 public enum BeanDescCache {

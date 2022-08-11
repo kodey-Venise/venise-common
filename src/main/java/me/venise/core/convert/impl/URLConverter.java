@@ -8,7 +8,7 @@ import java.net.URL;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:10
  */
 public class URLConverter extends AbstractConverter<URL> {

@@ -15,7 +15,7 @@ import java.util.List;
  * 排序时版本从小到大排序，即比较时小版本在前，大版本在后<br>
  * 支持如：1.3.20.8，6.82.20160101，8.5a/8.5c等版本形式<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:56
  */
 public class VersionComparator implements Comparator<String>, Serializable {

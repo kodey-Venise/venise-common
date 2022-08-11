@@ -5,7 +5,7 @@ import java.security.cert.X509Certificate;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:22
  */
 public class DefaultTrustManager implements X509TrustManager {

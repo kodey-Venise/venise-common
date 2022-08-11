@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * 日期格式化类，提供常用的日期格式化对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:44
  */
 public class DatePattern {

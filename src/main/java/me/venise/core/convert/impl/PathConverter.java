@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:23
  */
 public class PathConverter extends AbstractConverter<Path>{

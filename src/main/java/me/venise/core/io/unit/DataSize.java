@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:26
  */
 public final class DataSize implements Comparable<DataSize> {

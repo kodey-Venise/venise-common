@@ -15,7 +15,7 @@ import java.util.Date;
  * 最后12位是毫秒内的计数（12位的计数顺序号支持每个节点每毫秒产生4096个ID序号）
  * 并且可以通过生成的id反推出生成时间,datacenterId和workerId
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:16
  */
 public class Snowflake implements Serializable {

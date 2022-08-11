@@ -3,7 +3,7 @@ package me.venise.core.convert;
 /**
  * 转换器接口，实现类型转换
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 11:12
  */
 public interface Converter <T>{

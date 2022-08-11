@@ -2,7 +2,7 @@ package me.venise.core.lang;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:41
  */
 public class DefaultSegment<T extends Number> implements Segment<T> {

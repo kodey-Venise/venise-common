@@ -27,7 +27,7 @@ import java.util.jar.JarFile;
  * 协议://主机名[:端口]/ 路径/[:参数] [?查询]#Fragment
  * protocol :// hostname[:port] / path / [:parameters][?query]#fragment
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:16
  */
 public class URLUtil {

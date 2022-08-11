@@ -21,7 +21,7 @@ import java.util.jar.JarFile;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:58
  */
 public class ClassScanner implements Serializable {

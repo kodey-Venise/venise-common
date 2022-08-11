@@ -18,7 +18,7 @@ import java.util.Objects;
  * JDK8中新加入的java.time包对象解析转换器<br>
  * 支持的对象包括：
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:12
  */
 public class TemporalAccessorConverter extends AbstractConverter<TemporalAccessor> {

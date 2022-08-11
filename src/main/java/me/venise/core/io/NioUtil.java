@@ -18,7 +18,7 @@ import java.nio.charset.Charset;
 /**
  * NIO相关工具封装，主要针对Channel读写、拷贝等封装
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:46
  */
 public class NioUtil {

@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
  * 固定大小的LinkedHashMap 实现
  *
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:05
  */
 public class FixedLinkedHashMap<K, V> extends LinkedHashMap<K, V> {

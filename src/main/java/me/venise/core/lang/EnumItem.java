@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 枚举元素通用接口，在自定义枚举上实现此接口可以用于数据转换<br>
  * 数据库保存时建议保存 intVal()而非ordinal()防备需求变更<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:29
  */
 public interface EnumItem<E extends EnumItem<E>> extends Serializable {

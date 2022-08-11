@@ -12,7 +12,7 @@ import java.time.temporal.UnsupportedTemporalTypeException;
  *
  * * {@link TemporalAccessor} 工具类封装
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:49
  */
 public class TemporalAccessorUtil extends TemporalUtil{

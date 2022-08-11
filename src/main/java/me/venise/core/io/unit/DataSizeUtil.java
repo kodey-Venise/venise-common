@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 /**
  * 数据大小工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:25
  */
 public class DataSizeUtil {

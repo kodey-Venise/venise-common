@@ -7,7 +7,7 @@ import java.util.Locale;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:22
  */
 public class LocaleConverter extends AbstractConverter<Locale> {

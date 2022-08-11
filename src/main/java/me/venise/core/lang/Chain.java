@@ -3,7 +3,7 @@ package me.venise.core.lang;
 /**
  * 责任链接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:58
  */
 public interface Chain<E, T> extends Iterable<E>{

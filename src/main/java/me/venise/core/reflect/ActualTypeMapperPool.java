@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * 泛型变量和泛型实际类型映射关系缓存
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 14:17
  */
 public class ActualTypeMapperPool {

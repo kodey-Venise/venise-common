@@ -9,7 +9,7 @@ import java.util.Objects;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/22 17:21
  */
 public class TypeUtil {

@@ -8,7 +8,7 @@ import java.lang.reflect.Type;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 14:01
  */
 public class ParameterizedTypeImpl implements ParameterizedType, Serializable {

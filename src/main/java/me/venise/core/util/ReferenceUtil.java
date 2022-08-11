@@ -11,7 +11,7 @@ import java.lang.ref.*;
  *          会将{@link PhantomReference}插入{@link ReferenceQueue}。 此时对象未被真正回收，要等到{@link ReferenceQueue}被真正处理后才会被回收。
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:33
  */
 public class ReferenceUtil {

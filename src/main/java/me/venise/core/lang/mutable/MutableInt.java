@@ -4,7 +4,7 @@ import me.venise.core.util.NumberUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:11
  */
 public class MutableInt extends Number implements Comparable<MutableInt>, Mutable<Number> {

@@ -2,7 +2,7 @@ package me.venise.core.lang.mutable;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:03
  */
 public interface Mutable<T> {

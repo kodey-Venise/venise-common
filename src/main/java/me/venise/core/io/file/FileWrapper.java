@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * 文件包装器，扩展文件对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:05
  */
 public class FileWrapper implements Serializable {

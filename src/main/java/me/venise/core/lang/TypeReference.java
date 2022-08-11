@@ -6,7 +6,7 @@ import java.lang.reflect.Type;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/22 17:20
  */
 public abstract class TypeReference<T> implements Type {

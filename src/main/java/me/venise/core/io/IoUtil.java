@@ -22,7 +22,7 @@ import java.util.zip.Checksum;
 /**
  * IO工具类只是辅助流的读写，并不负责关闭流。原因是流可能被多次读写，读写关闭后容易造成问题。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:47
  */
 public class IoUtil extends NioUtil {

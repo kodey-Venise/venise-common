@@ -4,7 +4,7 @@ import me.venise.core.util.XmlUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:34
  */
 public interface StringPool {

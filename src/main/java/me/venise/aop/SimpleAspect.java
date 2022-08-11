@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
  * 演示切面类，不做任何操作<br>
  * 可以继承此类实现自己需要的方法即可
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/21 16:16
  */
 public class SimpleAspect implements Aspect, Serializable {

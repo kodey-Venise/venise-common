@@ -4,7 +4,7 @@ package me.venise.core.io;
  * Stream进度条
  *
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:50
  */
 public interface StreamProgress {

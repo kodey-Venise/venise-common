@@ -4,7 +4,7 @@ import me.venise.core.exceptions.ExceptionUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/22 16:03
  */
 public class CloneRuntimeException extends RuntimeException{

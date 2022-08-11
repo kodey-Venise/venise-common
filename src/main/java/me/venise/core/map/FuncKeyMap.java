@@ -7,7 +7,7 @@ import java.util.function.Function;
  *
  * 自定义函数Key风格的Map
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:05
  */
 public class FuncKeyMap<K, V> extends CustomKeyMap<K, V> {

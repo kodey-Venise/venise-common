@@ -3,7 +3,7 @@ package me.venise.core.lang;
 /**
  * 过滤器接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/22 15:56
  */
 public interface Filter <T>{

@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:33
  */
 public class DynaBean extends CloneSupport<DynaBean> implements Serializable {

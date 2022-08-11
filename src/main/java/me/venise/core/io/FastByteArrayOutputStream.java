@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
  * {@link #close()}方法无任何效果，当流被关闭后不会抛出IOException
  * 这种设计避免重新分配内存块而是分配新增的缓冲区，缓冲区不会被GC，数据也不会被拷贝到其他缓冲区。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:00
  */
 public class FastByteArrayOutputStream extends OutputStream {

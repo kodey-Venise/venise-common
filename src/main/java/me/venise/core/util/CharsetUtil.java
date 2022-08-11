@@ -10,7 +10,7 @@ import java.nio.charset.UnsupportedCharsetException;
 /**
  * 字符集工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:12
  */
 public class CharsetUtil {

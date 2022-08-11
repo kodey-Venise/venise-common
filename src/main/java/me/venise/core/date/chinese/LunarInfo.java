@@ -3,7 +3,7 @@ package me.venise.core.date.chinese;
 /**
  * 阴历（农历）信息
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:35
  */
 public class LunarInfo {

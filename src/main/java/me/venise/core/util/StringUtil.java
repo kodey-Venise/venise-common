@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 17:04
  */
 public class StringUtil extends CharSequenceUtil implements StringPool {

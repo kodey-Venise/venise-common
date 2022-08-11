@@ -9,7 +9,7 @@ import java.lang.reflect.Modifier;
  *
  * 修饰符工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:31
  */
 public class ModifierUtil {

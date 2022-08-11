@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * 日期间隔
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:18
  */
 public class DateBetween implements Serializable {

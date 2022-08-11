@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 值作为集合List的Map实现，通过调用putValue可以在相同key时加入多个值，多个值用集合表示
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:11
  */
 public class ListValueMap<K, V> extends CollectionValueMap<K, V> {

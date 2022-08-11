@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *     4. INC 自增计数器。确保同一秒内产生objectId的唯一性。
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:20
  */
 public class ObjectId {

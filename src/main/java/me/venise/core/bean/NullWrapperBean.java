@@ -3,7 +3,7 @@ package me.venise.core.bean;
 /**
  * 为了解决反射过程中,需要传递null参数,但是会丢失参数类型而设立的包装类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:31
  */
 public class NullWrapperBean<T> {

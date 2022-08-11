@@ -18,7 +18,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 此类使用{@link ReentrantReadWriteLock}保证线程安全
  * </p>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:16
  */
 public class Range<T> implements Iterable<T>, Iterator<T>, Serializable {

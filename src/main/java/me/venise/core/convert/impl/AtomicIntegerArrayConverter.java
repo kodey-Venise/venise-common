@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:15
  */
 public class AtomicIntegerArrayConverter extends AbstractConverter<AtomicIntegerArray> {

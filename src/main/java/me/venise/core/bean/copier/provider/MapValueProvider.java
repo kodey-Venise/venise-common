@@ -20,7 +20,7 @@ import java.util.Map;
  * </ul>
  * 为firstName或first_name都可以对应到值。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:29
  */
 public class MapValueProvider implements ValueProvider<String> {

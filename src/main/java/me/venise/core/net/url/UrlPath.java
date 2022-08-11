@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:36
  */
 public class UrlPath {

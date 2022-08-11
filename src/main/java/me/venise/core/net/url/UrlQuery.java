@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:37
  */
 public class UrlQuery {

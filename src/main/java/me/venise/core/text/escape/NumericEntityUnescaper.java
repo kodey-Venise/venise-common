@@ -6,7 +6,7 @@ import me.venise.core.util.CharUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:09
  */
 public class NumericEntityUnescaper extends StringReplacer {

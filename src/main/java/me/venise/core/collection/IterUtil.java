@@ -16,7 +16,7 @@ import java.util.function.Function;
 /**
  * {@link Iterable} 和 {@link Iterator} 相关工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:37
  */
 public class IterUtil {

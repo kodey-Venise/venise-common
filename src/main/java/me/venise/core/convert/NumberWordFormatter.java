@@ -7,7 +7,7 @@ import me.venise.core.util.StringUtil;
  *
  * 将浮点数类型的number转换成英语的表达方式 <br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:50
  */
 public class NumberWordFormatter {

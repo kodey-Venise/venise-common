@@ -10,7 +10,7 @@ import java.util.Collection;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:38
  */
 public class CollectionConverter implements Converter<Collection<?>> {

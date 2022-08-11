@@ -7,7 +7,7 @@ import java.util.Iterator;
 /**
  * {@link Enumeration}对象转{@link Iterator}对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:12
  */
 public class EnumerationIter<E> implements Iterator<E>, Iterable<E>, Serializable {

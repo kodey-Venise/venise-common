@@ -12,7 +12,7 @@ import java.util.Iterator;
  * 不可变数组类型，用于多值返回<br>
  * 多值可以支持每个元素值类型不同
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:41
  */
 public class Tuple extends CloneSupport<Tuple> implements Iterable<Object>, Serializable {

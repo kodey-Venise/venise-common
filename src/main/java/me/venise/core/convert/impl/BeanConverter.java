@@ -22,7 +22,7 @@ import java.util.Map;
  * ValueProvider =》 Bean
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:28
  */
 public class BeanConverter<T> extends AbstractConverter<T> {

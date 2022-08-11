@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:29
  */
 public class BeanValueProvider implements ValueProvider<String> {

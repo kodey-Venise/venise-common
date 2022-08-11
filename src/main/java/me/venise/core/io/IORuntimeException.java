@@ -5,7 +5,7 @@ import me.venise.core.util.StringUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:40
  */
 public class IORuntimeException extends RuntimeException {

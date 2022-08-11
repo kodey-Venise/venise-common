@@ -3,7 +3,7 @@ package me.venise.core.text;
 /**
  * ASCII字符对应的字符串缓存
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:09
  */
 public class ASCIIStrCache {

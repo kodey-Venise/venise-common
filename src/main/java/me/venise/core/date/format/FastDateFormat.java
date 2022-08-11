@@ -20,7 +20,7 @@ import java.util.TimeZone;
  * {@link #getDateTimeInstance(int, int, TimeZone, Locale)}
  * </p>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:42
  */
 public class FastDateFormat extends Format implements DateParser, DatePrinter {

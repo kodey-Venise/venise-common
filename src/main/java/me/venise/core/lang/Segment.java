@@ -7,7 +7,7 @@ import java.lang.reflect.Type;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:41
  */
 public interface Segment<T extends Number> {

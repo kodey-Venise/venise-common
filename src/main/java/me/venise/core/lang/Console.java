@@ -13,7 +13,7 @@ import static java.lang.System.out;
  * 命令行（控制台）工具方法类<br>
  * 此类主要针对{@link System#out} 和 {@link System#err} 做封装。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:15
  */
 public class Console {

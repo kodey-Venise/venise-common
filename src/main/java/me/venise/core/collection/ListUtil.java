@@ -14,7 +14,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:35
  */
 public class ListUtil {

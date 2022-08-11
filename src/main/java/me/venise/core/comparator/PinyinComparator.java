@@ -8,7 +8,7 @@ import java.util.Locale;
 /**
  * 按照GBK拼音顺序对给定的汉字字符串排序
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:41
  */
 public class PinyinComparator implements Comparator<String>, Serializable {

@@ -15,7 +15,7 @@ import java.util.*;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:33
  */
 public class CharSequenceUtil {

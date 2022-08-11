@@ -10,7 +10,7 @@ import me.venise.core.text.escape.Html4Unescape;
  * escape采用ISO Latin字符集对指定的字符串进行编码。<br>
  * 所有的空格符、标点符号、特殊字符以及其他非ASCII字符都将被转化成%xx格式的字符编码(xx等于该字符在字符集表里面的编码的16进制数字)。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:54
  */
 public class EscapeUtil {

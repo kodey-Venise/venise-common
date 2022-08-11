@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * 自定义键的Map，默认HashMap实现
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:04
  */
 public abstract class CustomKeyMap<K, V> extends MapWrapper<K, V> {

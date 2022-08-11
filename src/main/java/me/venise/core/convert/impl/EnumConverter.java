@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 11:11
  */
 public class EnumConverter extends AbstractConverter<Object> {

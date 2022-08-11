@@ -22,7 +22,7 @@ import java.util.Calendar;
  * @see Calendar#DECEMBER
  * @see Calendar#UNDECIMBER
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:52
  */
 public enum Month {

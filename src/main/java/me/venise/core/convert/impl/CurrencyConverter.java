@@ -6,7 +6,7 @@ import java.util.Currency;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:24
  */
 public class CurrencyConverter extends AbstractConverter<Currency> {

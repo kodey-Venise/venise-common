@@ -14,7 +14,7 @@ import me.venise.core.util.StringUtil;
  *     TERABYTES  1TB     2^40    1,099,511,627,776
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:26
  */
 public enum DataUnit {

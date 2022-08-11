@@ -17,7 +17,7 @@ import java.util.ServiceLoader;
  *     3、文件内容填写实现类的全限定类名
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:52
  */
 public class ServiceLoaderUtil {

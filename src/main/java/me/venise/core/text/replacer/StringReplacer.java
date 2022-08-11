@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:55
  */
 public abstract class StringReplacer implements Replacer<CharSequence>, Serializable {

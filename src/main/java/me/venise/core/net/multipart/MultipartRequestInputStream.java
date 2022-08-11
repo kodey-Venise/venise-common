@@ -8,7 +8,7 @@ import java.nio.charset.Charset;
 /**
  * Http请求解析流，提供了专门针对带文件的form表单的解析
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:32
  */
 public class MultipartRequestInputStream extends BufferedInputStream {

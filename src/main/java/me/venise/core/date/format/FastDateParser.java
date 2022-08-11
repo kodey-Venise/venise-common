@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  *
  * java.text.SimpleDateFormat 的线程安全版本，用于解析日期字符串并转换为 Date 对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:38
  */
 public class FastDateParser extends AbstractDateBasic implements DateParser {

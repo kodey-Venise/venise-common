@@ -5,7 +5,7 @@ import me.venise.core.text.CharPool;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:08
  */
 public class CharUtil implements CharPool {

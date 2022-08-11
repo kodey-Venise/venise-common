@@ -14,7 +14,7 @@ import java.nio.file.WatchEvent;
 /**
  * 行处理的Watcher实现
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:15
  */
 public class LineReadWatcher extends SimpleWatcher implements Runnable {

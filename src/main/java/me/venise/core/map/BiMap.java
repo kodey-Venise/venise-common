@@ -9,7 +9,7 @@ import java.util.Map;
  * 值的顺序在HashMap中不确定，所以谁覆盖谁也不确定，在有序的Map中按照先后顺序覆盖，保留最后的值<br>
  * 它与TableMap的区别是，BiMap维护两个Map实现高效的正向和反向查找
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:08
  */
 public class BiMap<K, V> extends MapWrapper<K, V> {

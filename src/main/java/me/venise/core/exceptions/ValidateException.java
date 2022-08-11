@@ -4,7 +4,7 @@ import me.venise.core.util.StringUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:12
  */
 public class ValidateException extends StatefulException {

@@ -9,7 +9,7 @@ package me.venise.core.date;
  * @see #Q3
  * @see #Q4
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:52
  */
 public enum Quarter {

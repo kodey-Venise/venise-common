@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * 文件名相关工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:14
  */
 public class FileNameUtil {

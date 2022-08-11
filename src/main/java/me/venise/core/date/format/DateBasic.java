@@ -7,7 +7,7 @@ import java.util.TimeZone;
  *
  * 日期基本信息获取接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:36
  */
 public interface DateBasic {

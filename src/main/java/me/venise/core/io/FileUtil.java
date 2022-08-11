@@ -26,7 +26,7 @@ import java.util.zip.Checksum;
 /**
  * 文件工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:13
  */
 public class FileUtil extends PathUtil {

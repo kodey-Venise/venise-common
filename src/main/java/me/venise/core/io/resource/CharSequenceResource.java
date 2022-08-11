@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
 /**
  * {@link CharSequence}资源，字符串做为资源
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:46
  */
 public class CharSequenceResource implements Resource, Serializable {

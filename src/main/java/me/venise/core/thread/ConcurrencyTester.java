@@ -15,7 +15,7 @@ import me.venise.core.date.TimeInterval;
  * });
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:27
  */
 public class ConcurrencyTester {

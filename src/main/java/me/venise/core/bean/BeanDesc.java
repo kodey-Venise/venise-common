@@ -26,7 +26,7 @@ import java.util.Map;
  * 4. Setter忽略参数值与字段值不匹配的情况，因此有多个参数类型的重载时，会调用首次匹配的
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:38
  */
 public class BeanDesc implements Serializable {

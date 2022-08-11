@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
  *
  * 保证ExecutorService在对象回收时正常结束
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:31
  */
 public class FinalizableDelegatedExecutorService extends DelegatedExecutorService {

@@ -10,7 +10,7 @@ import java.util.Map;
  * 驼峰Key风格的Map<br>
  * 对KEY转换为驼峰，get("int_value")和get("intValue")获得的值相同，put进入的值也会被覆盖
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:07
  */
 public class CamelCaseMap<K, V> extends CustomKeyMap<K, V> {

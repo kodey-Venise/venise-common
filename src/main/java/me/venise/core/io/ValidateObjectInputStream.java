@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * 带有类验证的对象流，用于避免反序列化漏洞<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:51
  */
 public class ValidateObjectInputStream  extends ObjectInputStream {

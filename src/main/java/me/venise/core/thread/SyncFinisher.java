@@ -23,7 +23,7 @@ import java.util.concurrent.ExecutorService;
  * sf.start()
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:28
  */
 public class SyncFinisher {

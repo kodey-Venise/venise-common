@@ -5,7 +5,7 @@ import me.venise.core.util.BooleanUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:47
  */
 public class BooleanConverter extends AbstractConverter<Boolean> {

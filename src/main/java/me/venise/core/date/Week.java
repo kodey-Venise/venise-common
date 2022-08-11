@@ -15,7 +15,7 @@ import java.util.Calendar;
  * @see #FRIDAY
  * @see #SATURDAY
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:45
  */
 public enum Week {

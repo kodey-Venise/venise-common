@@ -32,7 +32,7 @@ import java.util.function.Predicate;
  *     此工具类方法针对{@link java.util.Collection}及其实现类封装的工具
  * </p>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 10:59
  */
 public class CollUtil {

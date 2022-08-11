@@ -5,7 +5,7 @@ import java.util.function.Function;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 18:03
  */
 public class SpliteratorUtil {

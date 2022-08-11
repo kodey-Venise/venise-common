@@ -17,7 +17,7 @@ import java.util.List;
  * <p>
  * 需要注意的是，在构造此对象时需要保证原子性（原对象不被修改），最好加锁构造此对象，构造完毕后解锁。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:13
  */
 public class CopiedIter<E> implements Iterator<E>, Iterable<E>, Serializable {

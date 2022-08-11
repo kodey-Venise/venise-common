@@ -2,7 +2,7 @@ package me.venise.core.thread.threadlocal;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:35
  */
 public class NamedInheritableThreadLocal<T> extends InheritableThreadLocal<T> {

@@ -6,7 +6,7 @@ import java.io.OutputStream;
 /**
  * 此OutputStream写出数据到<b>/dev/null</b>，即忽略所有数据<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:50
  */
 public class NullOutputStream extends OutputStream {

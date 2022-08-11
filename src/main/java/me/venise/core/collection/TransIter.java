@@ -9,7 +9,7 @@ import java.util.function.Function;
  *
  * 使用给定的转换函数，转换源Iterator为新类型的Iterator
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 17:00
  */
 public class TransIter<F, T> implements Iterator<T> {

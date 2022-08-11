@@ -7,7 +7,7 @@ import java.util.Calendar;
  * 日期各个部分的枚举<br>
  * 与Calendar相应值对应
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:18
  */
 public enum DateField {

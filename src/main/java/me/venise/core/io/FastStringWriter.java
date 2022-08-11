@@ -7,7 +7,7 @@ import java.io.Writer;
 /**
  * 借助{@link StrBuilder} 提供快读的字符串写出，相比jdk的StringWriter非线程安全，速度更快。
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:57
  */
 public final class FastStringWriter extends Writer {

@@ -8,7 +8,7 @@ import java.lang.reflect.Type;
  * 继承或匿名实例化此接口<br>
  * 在Bean注入过程中，Bean获得字段名，通过外部方式根据这个字段名查找相应的字段值，然后注入Bean<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:31
  */
 public interface ValueProvider<T>{

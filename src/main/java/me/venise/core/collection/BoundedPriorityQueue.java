@@ -7,7 +7,7 @@ import java.util.*;
  * 有界优先队列<br>
  * 按照给定的排序规则，排序元素，当队列满时，按照给定的排序规则淘汰末尾元素（去除末尾元素）
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:36
  */
 public class BoundedPriorityQueue<E> extends PriorityQueue<E> {

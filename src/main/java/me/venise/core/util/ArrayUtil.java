@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 11:15
  */
 public class ArrayUtil extends PrimitiveArrayUtil{
@@ -475,9 +475,9 @@ public class ArrayUtil extends PrimitiveArrayUtil{
     /**
      * 过滤器
      * 过滤过程通过传入的FILTER来实现需要返回元素的内容
-     * @param array
-     * @param filter
-     * @param <T>
+     * @param array 数组
+     * @param filter 过滤器
+     * @param <T> 数组元素类型
      * @return
      */
     public static <T> T[] filter(T[]array, Filter<T> filter){
@@ -494,7 +494,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * 去除 {@code null} 元素
      * @param array 数组
      * @param <T> 数组元素类型
-     * @return
+     * @return 去除 {@code null} 元素
      */
     public static <T> T[] removeNull(T[] array){
         return filter(array,(Editor<T>)t->{return t;} );
@@ -518,8 +518,8 @@ public class ArrayUtil extends PrimitiveArrayUtil{
     /**
      * 数组元素中的null转换为""
      *
-     * @param array
-     * @return
+     * @param array 原始数组
+     * @return 数组元素中的null转换为""
      */
     public static String [] nullToEmpty(String[] array){
         return filter(array,(Editor<String>) t -> null == t ? StringUtil.EMPTY:t);
@@ -533,7 +533,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param isOrder 是否有序
      * @param <K> Key类型
      * @param <V> Value 类型
-     * @return
+     * @return 映射键值
      */
     public static <K,V> Map<K,V> zip(K[] keys, V[] values, boolean isOrder){
         if(isEmpty(keys)|| isEmpty(values)) return null;
@@ -553,7 +553,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param values 值列表
      * @param <K> Key类型
      * @param <V> Value 类型
-     * @return
+     * @return 映射键值
      */
     public static <K,V> Map<K,V> zip(K[] keys, V[] values){
         return zip(keys,values,false);
@@ -601,7 +601,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param array 数组
      * @param value 被检查的元素
      * @param <T> 数组元素类型
-     * @return
+     * @return TRUE||FALSE
      */
     public static <T> boolean contains(T[] array,T value){return indexOf(array,value)>INDEX_NOT_FOUND;}
 
@@ -679,7 +679,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
     /**
      * 对象是否为数组对象
      * @param obj
-     * @return
+     * @return 返回true或者false
      */
 
     public static boolean isArray(Object obj){
@@ -689,10 +689,10 @@ public class ArrayUtil extends PrimitiveArrayUtil{
     /**
      * 获取数组对象中指定index的值，支持负数，例如-1 表示倒数第一个值
      * 如果数组下标越界，返回null
-     * @param array
-     * @param index
-     * @param <T>
-     * @return
+     * @param array 数组
+     * @param index 下标值
+     * @param <T> 数组元素类型
+     * @return 取数组对象中指定index的值，支持负数，例如-1 表示倒数第一个值
      */
     @SuppressWarnings("unchecked")
     public static <T> T get(Object array,int index){
@@ -709,10 +709,10 @@ public class ArrayUtil extends PrimitiveArrayUtil{
 
     /**
      * 获取数组中指定多个下标元素值，组成新数组
-     * @param array
-     * @param indexes
-     * @param <T>
-     * @return
+     * @param array 原数组
+     * @param indexes 下标索引参数列表
+     * @param <T> 数组元素类型
+     * @return 获取数组中指定多个下标元素值，组成新数组
      */
     public static <T> T[] getAny(Object array,int...indexes){
         if(null == array) return null;
@@ -730,7 +730,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param start 开始位置(包括)
      * @param end 结束位置(不包括)
      * @param <T> 数组元素类型
-     * @return
+     * @return 返回子数组
      */
     public static <T> T[] sub(T[]array,int start,int end){
         int length = length(array);
@@ -893,7 +893,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
     /**
      * {@link ByteBuffer} 转byte 数组
      * @param buffer
-     * @return
+     * @return 将集合转为数组
      */
     public static byte[] toArray(ByteBuffer buffer){
         if(buffer.hasArray()){
@@ -915,7 +915,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param iterator {@link Iterator}
      * @param componentType 集合元素类型
      * @param <T> 数组元素类型
-     * @return
+     * @return 将集合转为数组
      */
     public static <T> T[] toArray(Iterator<T> iterator, Class<T> componentType) {
         return toArray(CollUtil.newArrayList(iterator), componentType);
@@ -927,7 +927,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param iterable {@link Iterator}
      * @param componentType 集合元素类型
      * @param <T> 数组元素类型
-     * @return
+     * @return 将集合转为数组
      */
     public static <T> T[] toArray(Iterable<T> iterable, Class<T> componentType) {
         return toArray(CollectionUtil.toCollection(iterable), componentType);
@@ -939,7 +939,7 @@ public class ArrayUtil extends PrimitiveArrayUtil{
      * @param collection 集合
      * @param componentType 集合元素类型
      * @param <T> 数组元素类型
-     * @return
+     * @return 将集合转为数组
      */
     public static <T> T[] toArray(Collection<T> collection,Class<T> componentType){
         return collection.toArray(newArray(componentType,0));
@@ -947,10 +947,10 @@ public class ArrayUtil extends PrimitiveArrayUtil{
 
     /**
      * 移除数组中对应位置的元素
-     * @param array
-     * @param index
-     * @param <T>
-     * @return
+     * @param array 目标数组
+     * @param index 数组删除的下标值
+     * @param <T> 数组元素类型
+     * @return 删除成功，返回修改后的数组，删除失败，返回原数组
      * @throws IllegalArgumentException
      */
     public static <T> T[] remove(T[] array,int index) throws IllegalArgumentException{
@@ -959,10 +959,10 @@ public class ArrayUtil extends PrimitiveArrayUtil{
 
     /**
      * 移除数组中对应位置的元素
-     * @param array
-     * @param element
-     * @param <T>
-     * @return
+     * @param array 目标数组
+     * @param element 需要删除的元素
+     * @param <T> 数组元素类型
+     * @return 返回删除后的数组
      * @throws IllegalArgumentException
      */
     public static <T> T[] remove(T[] array,T element) throws IllegalArgumentException{

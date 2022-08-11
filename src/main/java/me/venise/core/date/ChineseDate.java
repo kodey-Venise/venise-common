@@ -16,7 +16,7 @@ import java.util.Date;
  *     <li>通过农历日期直接构造</li>
  * </ul>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:19
  */
 public class ChineseDate {

@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
  * 例如十进制数57，在二进制写作111001，在16进制写作39。<br>
  * 像java,c这样的语言为了区分十六进制和十进制数值,会在十六进制数的前面加上 0x,比如0x20是十进制的32,而不是十进制的20<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:11
  */
 public class HexUtil {

@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 14:18
  */
 public class SimpleCache <K,V> implements Iterable<Map.Entry<K,V>>, Serializable {

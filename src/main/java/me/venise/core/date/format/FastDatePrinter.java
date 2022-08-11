@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentMap;
  *
  * java.text.SimpleDateFormat 的线程安全版本，用于将 Date 格式化输出
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:38
  */
 public class FastDatePrinter extends AbstractDateBasic implements DatePrinter {

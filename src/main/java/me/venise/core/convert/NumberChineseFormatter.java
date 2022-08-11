@@ -13,7 +13,7 @@ import me.venise.core.util.StringUtil;
  * 3. 转金额形式，比如：壹佰贰拾壹整
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:25
  */
 public class NumberChineseFormatter {

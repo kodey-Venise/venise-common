@@ -4,7 +4,7 @@ import me.venise.core.util.StringUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:33
  */
 public class NotInitedException extends RuntimeException {

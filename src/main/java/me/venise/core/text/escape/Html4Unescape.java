@@ -5,7 +5,7 @@ import me.venise.core.text.replacer.ReplacerChain;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:54
  */
 public class Html4Unescape extends ReplacerChain {

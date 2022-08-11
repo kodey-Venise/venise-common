@@ -11,7 +11,7 @@ import java.net.URL;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:44
  */
 public class UrlResource implements Resource, Serializable {

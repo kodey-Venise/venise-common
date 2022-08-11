@@ -16,7 +16,7 @@ import java.util.concurrent.*;
  *     4. 执行中的线程 &gt; maxPoolSize        -》 触发handler（RejectedExecutionHandler）异常
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:32
  */
 public class ExecutorBuilder implements Builder<ThreadPoolExecutor> {

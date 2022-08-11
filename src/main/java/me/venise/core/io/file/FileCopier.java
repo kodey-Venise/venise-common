@@ -25,7 +25,7 @@ import java.util.ArrayList;
  *     4、目录下的文件和目录复制到另一个目录
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:15
  */
 public class FileCopier extends SrcToDestCopier<File, FileCopier> {

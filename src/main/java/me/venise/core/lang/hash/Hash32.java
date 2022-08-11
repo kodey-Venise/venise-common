@@ -4,7 +4,7 @@ package me.venise.core.lang.hash;
  *
  * Hash计算接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:38
  */
 public interface Hash32<T> {

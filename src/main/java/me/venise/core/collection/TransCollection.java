@@ -13,7 +13,7 @@ import java.util.function.Predicate;
 /**
  * 使用给定的转换函数，转换源集合为新类型的集合
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 18:01
  */
 public class TransCollection<F, T> extends AbstractCollection<T> {

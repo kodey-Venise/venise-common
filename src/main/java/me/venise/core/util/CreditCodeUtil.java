@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  * 第五部分：校验码1位 (数字或大写英文字母)
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:13
  */
 public class CreditCodeUtil {

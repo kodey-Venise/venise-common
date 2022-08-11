@@ -25,7 +25,7 @@ import java.nio.charset.Charset;
  * <p>同样，我们可以自己实现Resource接口，按照业务需要从任意位置读取数据，比如从数据库中。</p>
  *
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:41
  */
 public interface Resource {

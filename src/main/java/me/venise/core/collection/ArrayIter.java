@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 18:02
  */
 public class ArrayIter<E> implements Iterator<E>, Iterable<E>, Serializable {

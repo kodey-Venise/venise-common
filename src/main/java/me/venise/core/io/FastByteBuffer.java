@@ -3,7 +3,7 @@ package me.venise.core.io;
 /**
  * 快速缓冲，将数据存放在缓冲集中，取代以往的单一数组
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:59
  */
 public class FastByteBuffer {

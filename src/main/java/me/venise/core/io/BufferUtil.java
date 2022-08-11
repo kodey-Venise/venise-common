@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
  * {@link ByteBuffer} 工具类<br>
  * 此工具来自于 t-io 项目以及其它项目的相关部分收集<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:01
  */
 public class BufferUtil {

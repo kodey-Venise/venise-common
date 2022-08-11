@@ -26,7 +26,7 @@ import java.io.PushbackInputStream;
  * </code>
  * <br><br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:02
  */
 public class BOMInputStream extends InputStream {

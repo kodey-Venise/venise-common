@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:34
  */
 public class ConcurrentHashSet<E> extends AbstractSet<E> implements java.io.Serializable {

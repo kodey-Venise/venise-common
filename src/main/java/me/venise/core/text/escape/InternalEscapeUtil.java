@@ -2,7 +2,7 @@ package me.venise.core.text.escape;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:59
  */
 class InternalEscapeUtil {

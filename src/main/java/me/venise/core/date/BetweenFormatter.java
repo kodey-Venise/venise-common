@@ -14,7 +14,7 @@ import java.io.Serializable;
  *    <li>XX月XX天XX小时</li>
  * </ul>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:24
  */
 public class BetweenFormatter implements Serializable {

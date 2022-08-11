@@ -7,7 +7,7 @@
     <groupId>me.venise</groupId>
     <artifactId>venise-common</artifactId>
     <name>venise-common</name>
-    <version>1.0.1-RELEASE</version>
+    <version>1.0.1</version>
     <description>venise 工具框架</description>
 
     <url>https://github.com/kodey-Venise/venise-common.git</url>
@@ -53,41 +53,50 @@
 
     <profiles>
         <profile>
-            <!--本地环境-->
-            <id>dev</id>
-            <properties>
-                <profiles.active>dev</profiles.active>
-            </properties>
-            <activation>
-                <!--默认激活-->
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <!--打包环境-->
-            <id>release</id>
-            <properties>
-                <profiles.active>release</profiles.active>
-            </properties>
-            <!--定义snapshots库和releases库的nexus地址-->
-            <distributionManagement>
-                <snapshotRepository>
-                    <!--oosrh 需要对应到settings.xml下的service的id-->
-                    <id>oosrh</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-                </snapshotRepository>
-                <repository>
-                    <id>oosrh</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-        <profile>
-            <!--测试环境-->
-            <id>beta</id>
-            <properties>
-                <profiles.active>beta</profiles.active>
-            </properties>
+            <id>sonatype-nexus-snapshots</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <version>3.2.1</version>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>3.0.1</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
         </profile>
     </profiles>
 
@@ -134,6 +143,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <additionalJOptions>
+                        <additionalJOption>-Xdoclint:none</additionalJOption>
+                    </additionalJOptions>
+                </configuration>
             </plugin>
             <!--gpg加密插件-->
             <plugin>
@@ -152,13 +166,19 @@
         </plugins>
     </build>
 
-    <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>org.mapdb</groupId>-->
-<!--            <artifactId>mapdb</artifactId>-->
-<!--            <version>3.0.8</version>-->
-<!--        </dependency>-->
-    </dependencies>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-release</id>
+            <name>Nexus Release Repository</name>
+            <url>https://s01.oss.sonatype.org/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>

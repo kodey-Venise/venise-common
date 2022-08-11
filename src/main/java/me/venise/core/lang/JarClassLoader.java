@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 外部Jar的类加载器
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:24
  */
 public class JarClassLoader extends URLClassLoader {

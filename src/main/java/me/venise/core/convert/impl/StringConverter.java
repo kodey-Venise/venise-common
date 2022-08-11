@@ -14,7 +14,7 @@ import java.util.TimeZone;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:48
  */
 public class StringConverter extends AbstractConverter<String> {

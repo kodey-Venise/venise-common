@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 /**
  * 对象工具类，包括判空、克隆、序列化等操作
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 16:03
  */
 public class ObjectUtil {

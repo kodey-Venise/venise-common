@@ -26,7 +26,7 @@ import java.util.NoSuchElementException;
  * }
  * </pre>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:31
  */
 public class LineIter implements Iterator<String>, Iterable<String>, Closeable, Serializable {

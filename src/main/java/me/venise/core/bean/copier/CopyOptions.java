@@ -17,7 +17,7 @@ import java.util.function.BiPredicate;
  * 2、是否忽略空值，当源对象的值为null时，true: 忽略而不注入此值，false: 注入null<br>
  * 3、忽略的属性列表，设置一个属性列表，不拷贝这些属性值<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:29
  */
 public class CopyOptions implements Serializable {

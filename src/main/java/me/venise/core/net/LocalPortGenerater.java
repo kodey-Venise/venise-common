@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 用于生成本地可用（未被占用）的端口号<br>
  * 注意：多线程甚至单线程访问时可能会返回同一端口（例如获取了端口但是没有使用）
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:31
  */
 public class LocalPortGenerater implements Serializable {

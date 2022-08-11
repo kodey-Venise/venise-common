@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:38
  */
 public class ResourceUtil {

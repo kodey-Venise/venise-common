@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * 切面接口
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/21 16:08
  * @since 1.0.1
  */

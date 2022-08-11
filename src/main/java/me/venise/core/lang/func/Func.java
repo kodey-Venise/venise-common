@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 无参数的函数对象
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/27 14:25
  */
 public interface Func<P,R> extends Serializable {

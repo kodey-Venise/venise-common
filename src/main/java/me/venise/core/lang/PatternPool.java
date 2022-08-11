@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 /**
  * 常用正则表达式集合，更多正则见:https://any86.github.io/any-rule/
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:56
  */
 public class PatternPool {

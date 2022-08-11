@@ -20,7 +20,7 @@ import java.util.*;
 /**
  * 反射工具类
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:35
  */
 public class ReflectUtil {

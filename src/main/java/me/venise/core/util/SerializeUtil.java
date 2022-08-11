@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:17
  */
 public class SerializeUtil {

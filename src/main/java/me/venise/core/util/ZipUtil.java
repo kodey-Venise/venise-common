@@ -19,7 +19,7 @@ import java.util.zip.*;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:29
  */
 public class ZipUtil {

@@ -13,7 +13,7 @@ import java.util.Objects;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 20:16
  */
 public class MapConverter extends AbstractConverter<Map<?, ?>> {

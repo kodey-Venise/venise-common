@@ -11,7 +11,7 @@ import java.util.Date;
  * 用户只需实现getObj方法即可，其他类型将会从Object结果中转换
  * 在不提供默认值的情况下， 如果值不存在或获取错误，返回null<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:56
  */
 public interface OptNullBasicTypeFromObjectGetter<K> extends OptNullBasicTypeGetter<K> {

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * ystem.currentTimeMillis()之所以慢是因为去跟系统打了一次交道
  * 后台定时更新时钟，JVM退出时，线程自动回收
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:18
  */
 public class SystemClock {

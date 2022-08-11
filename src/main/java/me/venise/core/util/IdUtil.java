@@ -9,7 +9,7 @@ import me.venise.core.lang.UUID;
  * ID生成器工具类，此工具类中主要封装：
  * 唯一性ID生成器：UUID、ObjectId（MongoDB）、Snowflake
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 14:16
  */
 public class IdUtil {

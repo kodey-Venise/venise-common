@@ -11,7 +11,7 @@ import java.util.concurrent.Semaphore;
  * 例如：设置信号量为2，表示最多有两个线程可以同时执行方法逻辑，其余线程等待，直到此线程逻辑执行完毕
  * </p>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:29
  */
 public class SemaphoreRunnable implements Runnable {

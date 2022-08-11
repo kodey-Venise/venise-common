@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
  * 全局公共线程池<br>
  * 此线程池是一个无限线程池，即加入的线程不等待任何线程，直接执行
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:31
  */
 public class GlobalThreadPool {

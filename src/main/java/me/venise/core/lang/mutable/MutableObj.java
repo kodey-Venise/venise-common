@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:03
  */
 public class MutableObj<T> implements Mutable<T>, Serializable {

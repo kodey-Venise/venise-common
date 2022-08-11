@@ -12,7 +12,7 @@ import java.util.List;
  *
  * 控制台打印表格工具
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:17
  */
 public class ConsoleTable {

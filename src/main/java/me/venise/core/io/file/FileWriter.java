@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:18
  */
 public class FileWriter extends FileWrapper{

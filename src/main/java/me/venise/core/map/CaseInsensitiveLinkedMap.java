@@ -7,7 +7,7 @@ import java.util.Map;
  * 忽略大小写的LinkedHashMap<br>
  * 对KEY忽略大小写，get("Value")和get("value")获得的值相同，put进入的值也会被覆盖
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 16:07
  */
 public class CaseInsensitiveLinkedMap<K, V> extends CustomKeyMap<K, V> {

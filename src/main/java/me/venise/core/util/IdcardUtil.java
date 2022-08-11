@@ -18,7 +18,7 @@ import java.util.Objects;
  * 本工具并没有对行政区划代码做校验，如有需求，请参阅（2018年10月）：
  * http://www.mca.gov.cn/article/sj/xzqh/2018/201804-12/20181011221630.html
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:38
  */
 public class IdcardUtil {

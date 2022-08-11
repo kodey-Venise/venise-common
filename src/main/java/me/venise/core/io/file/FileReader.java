@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:05
  */
 public class FileReader extends FileWrapper {

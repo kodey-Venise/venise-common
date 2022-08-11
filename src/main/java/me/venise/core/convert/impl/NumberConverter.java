@@ -20,7 +20,7 @@ import java.util.function.Function;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:39
  */
 public class NumberConverter extends AbstractConverter<Number> {

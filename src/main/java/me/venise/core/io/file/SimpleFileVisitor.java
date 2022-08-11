@@ -8,7 +8,7 @@ import java.util.Objects;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:18
  */
 public class SimpleFileVisitor<T> implements FileVisitor<T> {

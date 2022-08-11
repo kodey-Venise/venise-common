@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 分组计时器<br>
  * 计算某几个过程花费的时间，精确到毫秒或纳秒
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 13:47
  */
 public class GroupTimeInterval implements Serializable {

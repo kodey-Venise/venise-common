@@ -7,7 +7,7 @@ import me.venise.core.util.StringUtil;
 /**
  * 提供Unicode字符串和普通字符串之间的转换
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:48
  */
 public class UnicodeUtil {

@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:20
  */
 public class URLDecoder implements Serializable {

@@ -5,7 +5,7 @@ import me.venise.core.util.ClassLoaderUtil;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 11:16
  */
 public class ClassConverter extends AbstractConverter<Class<?>> {

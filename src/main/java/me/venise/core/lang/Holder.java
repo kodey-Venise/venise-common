@@ -4,7 +4,7 @@ import me.venise.core.lang.mutable.MutableObj;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:02
  */
 public final class Holder<T> extends MutableObj<T> {

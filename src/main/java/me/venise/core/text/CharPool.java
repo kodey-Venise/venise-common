@@ -2,7 +2,7 @@ package me.venise.core.text;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 13:08
  */
 public interface CharPool {

@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * 天干地支类 天干地支，简称为干支
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 14:19
  */
 public class GanZhi {

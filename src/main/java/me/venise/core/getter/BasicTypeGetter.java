@@ -8,7 +8,7 @@ import java.util.Date;
  * 基本类型的getter接口<br>
  * 提供一个统一的接口定义返回不同类型的值（基本类型）<br>
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/28 15:55
  */
 public interface BasicTypeGetter<K> {

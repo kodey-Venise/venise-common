@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:26
  */
 public class Ipv4Util {

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 观察者链，用于加入多个观察者
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 15:21
  */
 public class WatcherChain implements Watcher, Chain<Watcher, WatcherChain> {

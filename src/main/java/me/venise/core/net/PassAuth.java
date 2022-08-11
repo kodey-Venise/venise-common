@@ -5,7 +5,7 @@ import java.net.PasswordAuthentication;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 16:22
  */
 public class PassAuth extends Authenticator {

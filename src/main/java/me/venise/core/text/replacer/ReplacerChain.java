@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author liangweijie
- * @email kodey@venise.me
+ *  email kodey@venise.me
  * @date 2022/7/29 10:55
  */
 public class ReplacerChain extends StringReplacer implements Chain<StringReplacer, ReplacerChain> {
