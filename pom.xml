@@ -7,7 +7,7 @@
     <groupId>me.venise</groupId>
     <artifactId>venise-common</artifactId>
     <name>venise-common</name>
-    <version>1.0.1</version>
+    <version>2022.08.11</version>
     <description>venise 工具框架</description>
 
     <url>https://github.com/kodey-Venise/venise-common.git</url>
@@ -53,7 +53,7 @@
 
     <profiles>
         <profile>
-            <id>sonatype-nexus-snapshots</id>
+            <id>sonatype-nexus-release</id>
             <build>
                 <plugins>
                     <plugin>
